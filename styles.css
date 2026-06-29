@@ -250,6 +250,23 @@ h3 {
   font-size: clamp(1.04rem, 1.6vw, 1.28rem);
 }
 
+.credential-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+.credential-row span {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 7px 10px;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 0.82rem;
+  font-weight: 900;
+}
+
 .hero-actions {
   gap: 12px;
   flex-wrap: wrap;
@@ -558,6 +575,13 @@ h3 {
   gap: 12px;
   flex-wrap: wrap;
   justify-content: flex-end;
+}
+
+.contact-note {
+  max-width: 680px;
+  margin: 18px 0 0;
+  color: var(--muted);
+  font-weight: 700;
 }
 
 .site-footer {
